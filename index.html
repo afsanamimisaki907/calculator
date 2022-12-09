@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my calculator</title>
+
+    <link rel="stylesheet" href="calcu.css">
+</head>
+<body>
+ <div class="container">
+    <input type="reset" id="display" placeholder="calculator off">
+
+    <div class="buttons">
+        <button id="alldelete" onclick="ac('')">AC</button>
+        <button onclick="onedelete('')">&larr;</button>
+        <button onclick="saki('%')">%</button>
+        <button onclick="saki('/')">/</button>
+        <button onclick="saki('7')">7</button>
+        <button onclick="saki('8')">8</button>
+        <button onclick="saki('9')">9</button>
+        <button onclick="saki('*')">*</button>
+        <button onclick="saki('4')">4</button>
+        <button onclick="saki('5')">5</button>
+        <button onclick="saki('6')">6</button>
+        <button onclick="saki('-')">-</button>
+        <button onclick="saki('1')">1</button>
+        <button onclick="saki('2')">2</button>
+        <button onclick="saki('3')">3</button>
+        <button onclick="saki('+')">+</button>
+        <button onclick="saki('0')">0</button>
+        <button onclick="saki('.')">.</button>
+        <button onclick="saki('00')">00</button>
+        <button id="afsana" onclick="result('')">=</button>
+    </div>
+
+ </div>
+ <script src="calcu.js"></script>   
+</body>
+</html>
